@@ -3,7 +3,7 @@
 h1 {
     font-family: "Jersey 25 Charted", sans-serif;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 60px;
     font-style:inherit
     
     
@@ -12,7 +12,7 @@ body {
     margin: 0;
     border: ;
     padding: 30px;
-    background-color: maroon;
+    background-color: rgb(104, 2, 2);
     color: white;
     text-align:center;
 }
@@ -21,14 +21,29 @@ p{
 }
 form{
     text-align: left;
+    text-decoration: underline;
     background-color: gray;
-    padding: 30px; ;
+    padding: 40px; ;
 }
 img{
+    border-radius: 90px;
     padding: 30px;
 }
 .card  {
 background-color: darkslategrey;
-color: bisque;
+color: white;
 text-align: center;
+}
+.button{
+    padding: 20px;
+}
+table{
+    text-align: center;
+    border: solid;
+    padding: 10px;
+}
+a{
+    color: rgb(58, 12, 223);
+    text-align: center;
+    
 }

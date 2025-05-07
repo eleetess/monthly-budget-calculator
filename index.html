@@ -12,26 +12,43 @@
   <section class="container-fluid bg-dark text-light text-center py-5">
     <div class="card body">
      <div class="row m-4">
-<div class="card title"><h1 style="color: bisque; background-color:navy;">
+<div class="card title"><h1 style="color: bisque; background-color:rgb(8, 8, 56);">
   Monthly Budget Calculator</h1></header>
-  <div class="card text"> We provided helpful tools and resources to assist with accounting for every penny spent to reach your goals.
-Below is a form. Fill in with your information to get the first look at where your money is spent. This is the first step in gaining finiancial freedom.
+  <div class="card text"> We provided helpful tools and resources to assist with accounting for 
+    every penny spent to reach your goals.On this page you will find, images, links, and calculator tools
+    to assist with your goals finaincally.
+Below the images is a form, you may use to get your ending balance for the month after expenses.
+ Fill in with your information once submitted results will appear on the screen. 
+This is the first step in gaining finiancial freedom.
   </div>
-  <div class="card">
-  <div class="img text">The following image contains helpful tips how to stay organized and keep your money flowing where it should be 
-    <img src="https://www.howtomoney.com/wp-content/uploads/2022/12/Budgeting-types-1140x1140.png.webp" class="" alt="placeholder" width="300">
+  <div class="row m-4">
+  <div class="col">
+    <P>The following image contains helpful tips how to stay organized 
+    and keep your money flowing where it should be </P>
+    <img src="https://www.howtomoney.com/wp-content/uploads/2022/12/Budgeting-types-1140x1140.png.webp" 
+    class="" alt="placeholder" width="300">
+    <img src="https://www.oklahomamoneymatters.org/images/Spending%20Graphic.png" 
+    class="" alt="what to spend money on" width="300">
+    <img src="https://umbrella.data.naturalint.com/production/articles/uploads/photo/How%20to%20Budget.20181210091552.jpg"
+    class="" alt="write it down" width="400">
 </div>
 </div>
 
 </section>
 
 <body>
+  <a href="https://onboarding.rocketmoney.com/">
+    Budgeting for Beginners
+  </a>
+  
+  <a href="https://www.boldin.com/">Budget for No income</a>
+
   <form id="myForm">
     <label for="incomeamount">Income Amount:</label><br>
-    <input type="text" id="incomeamount" name="income" value="0.00"><br>
+    <input type="text" id="incomeAmount" name="income" value="0.00"><br>
     <label for="rent">Rent/Mortgage:</label><br>
     <input type="text" id="rent" name="rentamount" value="0.00"><br>
-    <label for="address">Electric</label><br>
+    <label for="electric">Electric</label><br>
     <input type="text" id="electric"  value="0.00"><br>
     <label for="gas">Gas:including gas for commuting</label><br>
     <input type="text" id="gas" name="gas" value="0.00"><br>
@@ -45,16 +62,23 @@ Below is a form. Fill in with your information to get the first look at where yo
     <input type="text" id="food" name="food" value="0.00"><br>
     <label for="childcare">Childcare:</label><br>
     <input type="text" id="childcare" childcare="" value="0.00"><br>
-    <table>
+    <input type="submit"/>
+    
+    <table id="tabletalk">
         <colgroup>
             <col span="3" style="background-color:darkslateblue">
-            <col style="background-color:yellow">
+            <col style="background-color:darkcyan">
           </colgroup>
         <tr>
             <tr>
-          <th>Starting Budget</th>
-          <th>Expenses Total</th>
-          <th>Final Balance</th>
+          
+          <th>Final Balance:</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
     </table>
 
