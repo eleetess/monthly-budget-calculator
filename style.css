@@ -42,8 +42,8 @@ table{
     border: solid;
     padding: 10px;
 }
-a{
+ul{
     color: rgb(58, 12, 223);
-    text-align: center;
+    text-align: left;
     
 }
