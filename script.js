@@ -12,6 +12,23 @@ let insurance=document.getElementById
 let groceries=document.getElementById
 let childcare=document.getElementById
 
+let monies=incomeAmount
+let live=rent
+let lights=electric
+let htwoo=water
+let delta=gas
+let wireless=internet
+let etc=insurance
+let food=groceries
+let babysitter=childcare
+let input=["incomeAmount", "rent","electric", "water", "groceries","internet","insurance","childcare", "gas"]{
+    input=inputList.queryselector(all);
+    
+}
+
+
+
+}
 //stuck: i have the values, how do i start the process of getting utilities subtracted from the income amount
 //to give me the ending total i need do i need to create a class for the utilities or do i need to put ids again in 
 //
