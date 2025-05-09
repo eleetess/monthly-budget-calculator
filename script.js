@@ -38,6 +38,7 @@ function calculate(event) {
 //as you loop through the deductionselement subtract each elements value from the monies vari
 //
   document.getElementById("total").innerHTML = "$" + monies;
+  for 
 }
 
 //stuck: i have the values, how do i start the process of getting utilities subtracted from the income amount
