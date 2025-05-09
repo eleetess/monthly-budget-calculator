@@ -43,13 +43,13 @@ This is the first step in gaining financial freedom.
 
   <li><a href="https://www.boldin.com/">Budget for No income</li></a>
  </ul>
-  <form id="myForm">
+  <form onsubmit="calculate(event)" id="myForm">
     <label for="incomeamount">Income Amount:</label><br>
     <input type="text" id="monies" name="income" value="0.00"><br>
     <label for="rent">Rent/Mortgage:</label><br>
-    <input type="text" id="live" name="rentamount" value="0.00"><br>
+    <input class="deductions" type="text" id="live" name="rentamount" value="0.00"><br>
     <label for="electric">Electric</label><br>
-    <input type="text" id="lights"  value="0.00"><br>
+    <input class="deductions" type="text" id="lights"  value="0.00"><br>
     <label for="gas">Gas:including gas for commuting</label><br>
     <input type="text" id="delta" name="gas" value="0.00"><br>
     <label for="water">Water:</label><br>
@@ -62,7 +62,7 @@ This is the first step in gaining financial freedom.
     <input type="text" id="food" name="food" value="0.00"><br>
     <label for="childcare">Childcare:</label><br>
     <input type="text" id="babySitter" childcare="" value="0.00"><br>
-    <input type="submit"/>
+    <button>Calculate</button>
     
     <table id="tabletalk">
         <colgroup>
@@ -72,7 +72,7 @@ This is the first step in gaining financial freedom.
         <tr>
             <tr>
           
-          <th>Final Balance:</th>
+          <th id="total">Final Balance:</th>
         </tr>
         <tr>
           <td></td>
