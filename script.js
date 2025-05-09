@@ -26,24 +26,23 @@
 // ];
 
 function calculate(event) {
-    let inputElements = document.querySelectorAll("input.deductions");
-  event.preventDefault();
+    let inputElements = document.querySelectorAll('input.deductions');
+    event.preventDefault();
+    console.log('income', event.target.monies.value);
+    console.log(inputElements);
+    let monies = event.target.monies.value;
+    let live = document.getElementById('live').value;
+    //use a for loop to loop through input elements, rename vari. to deductionElements
+    //as you loop through the deductionsElements subtract each elements value from the monies vari
+    //
   
+    inputElements.forEach(element => {
+      monies -= deductionElements.value;
+    });
+  
+    document.getElementById('total').innerHTML = '$' + monies;
+  }
 
-  console.log("income", event.target.monies.value);
-  console.log(inputElements);
-  let monies = event.target.monies.value;
-  let live = document.getElementById("live").value;
-//use a for loop to loop through input elements, rename vari. to deductionelements
-//as you loop through the deductionselement subtract each elements value from the monies vari
-//
-  document.getElementById("total").innerHTML = "$" + monies;
-  for 
-}
-
-//stuck: i have the values, how do i start the process of getting utilities subtracted from the income amount
-//to give me the ending total i need do i need to create a class for the utilities or do i need to put ids again in
-//
 
 //check if the inputs are valid numbers
 //calculate the remaining balance
