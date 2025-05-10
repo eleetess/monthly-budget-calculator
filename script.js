@@ -35,12 +35,21 @@ function calculate(event) {
     //use a for loop to loop through input elements, rename vari. to deductionElements
     //as you loop through the deductionsElements subtract each elements value from the monies vari
     //
-  
+    let incomeAmount=document.getElementById("monies").value
+    let rent=document.getElementById("live").value
+    let electric=document.getElementById("lights").value
+    let gas=document.getElementById("delta").value
+    let water=document.getElementById("htwoo").value
+    let internet=document.getElementById("wireless").value
+    let insurance=document.getElementById("etc").value
+    let food=document.getElementById("food").value
+    let childCare=document.getElementById("babySitter").value
+    let total=incomeAmount-rent-electric-gas-water-internet-insurance-food-childCare
     inputElements.forEach(element => {
-      monies -= deductionElements.value;
+      monies -= element.value;
     });
-  
-    document.getElementById('total').innerHTML = '$' + monies;
+    console.log(total)
+    document.getElementById('total').innerHTML = '$' + total;
   }
 
 
